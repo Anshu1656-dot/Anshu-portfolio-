@@ -1,0 +1,31 @@
+import FilmGrain from "@/components/FilmGrain";
+import ScrollProgress from "@/components/ScrollProgress";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Portfolio from "@/components/Portfolio";
+import Achievements from "@/components/Achievements";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <>
+      <FilmGrain />
+      <ScrollProgress />
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <Portfolio />
+        <Achievements />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
+}
